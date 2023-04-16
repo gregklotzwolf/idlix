@@ -43,7 +43,7 @@ export default function Index() {
   }, [state]);
 
   return (
-    <App title="Create your own AI chat bot">
+    <App title="IDLIX AI BOT">
       <main className="bg-white md:rounded-lg md:shadow-md p-6 w-full h-full flex flex-col">
         <section className="overflow-y-auto flex-grow mb-4 pb-8">
           <div className="flex flex-col space-y-4">
@@ -66,9 +66,9 @@ export default function Index() {
                     Built with 🤖{" "}
                     <a
                       className="underline"
-                      href="https://github.com/ascorbic/daneel"
+                      href="https://play.google.com/store/apps/details?id=com.idlix.rdpdigitalkreatif"
                     >
-                      Daneel
+                      IDLIX TEAM
                     </a>
                   </p>
                 </div>
@@ -120,7 +120,7 @@ export default function Index() {
               type="text"
               ref={inputRef}
               className="w-full rounded-l-lg p-2 outline-none"
-              placeholder={state == "idle" ? "Type your message..." : "..."}
+              placeholder={state == "idle" ? "Tanya seputar movie..." : "..."}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               disabled={state !== "idle"}
@@ -130,7 +130,7 @@ export default function Index() {
                 className="bg-blue-700 text-white font-bold py-2 px-4 rounded-r-lg"
                 type="submit"
               >
-                Send
+                Kirim
               </button>
             ) : null}
           </form>
