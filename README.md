@@ -1,4 +1,4 @@
-# 🤖 IDLIX APK AI CHAT
+# 🤖 AI CHAT
 
 https://play.google.com/store/apps/details?id=com.idlix.rdpdigitalkreatif
 
